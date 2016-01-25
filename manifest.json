@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Simple new tab",
+  "description": "A dead simple new tab setting. Will do nothing more.",
+  "short_name": "SNT",
+  "version": "0.1.0",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "minimum_chrome_version" : "22"
+}
